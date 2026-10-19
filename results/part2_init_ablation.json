@@ -1,0 +1,46 @@
+{
+ "he": {
+  "preact_std_per_layer_at_init": [
+   1.3961524041225963,
+   1.41715057642713,
+   1.5740941261496912
+  ],
+  "diverged": false,
+  "nan_free": true,
+  "loss_after_epoch1": 1.0665777975835748,
+  "final_test_acc": 0.9814471243042672
+ },
+ "xavier": {
+  "preact_std_per_layer_at_init": [
+   0.6243783365135765,
+   0.5174702253937252,
+   0.5747779070190455
+  ],
+  "diverged": false,
+  "nan_free": true,
+  "loss_after_epoch1": 1.0436234880752202,
+  "final_test_acc": 0.9833024118738405
+ },
+ "normal1": {
+  "preact_std_per_layer_at_init": [
+   7.897830660199911,
+   90.6976368913363,
+   836.8261011682687
+  ],
+  "diverged": false,
+  "nan_free": true,
+  "loss_after_epoch1": 801.395017311123,
+  "final_test_acc": 0.8534322820037106
+ },
+ "tiny": {
+  "preact_std_per_layer_at_init": [
+   0.07897830660199912,
+   0.009069763689133632,
+   0.0008368261011682687
+  ],
+  "diverged": false,
+  "nan_free": true,
+  "loss_after_epoch1": 1.956810186512238,
+  "final_test_acc": 0.974025974025974
+ }
+}
