@@ -1,0 +1,4 @@
+numpy>=1.24
+matplotlib>=3.7
+scikit-learn>=1.3   # ONLY used by train/data.py to load the bundled 8x8 digits dataset
+pytest>=7
