@@ -1,0 +1,25 @@
+seed 0 done  (152s elapsed)
+seed 1 done  (327s elapsed)
+seed 2 done  (498s elapsed)
+seed 3 done  (672s elapsed)
+seed 4 done  (844s elapsed)
+seed 5 done  (1011s elapsed)
+seed 6 done  (1179s elapsed)
+seed 7 done  (1350s elapsed)
+Dense baseline: 97.50% +/- 1.03 (n=8)
+
+| target sparsity | magnitude | taylor1 | fisher | fisher_regrow | fisher_oneshot |
+|---|---|---|---|---|---|
+| 50% | 97.63 +/- 0.69 | 97.82 +/- 0.78 | 97.91 +/- 1.09 | - | - |
+| 75% | 97.59 +/- 0.54 | 97.91 +/- 0.75 | 97.84 +/- 0.65 | - | - |
+| 90% | 97.54 +/- 0.69 | 97.70 +/- 0.87 | 97.68 +/- 0.77 | 97.45 +/- 0.84 | 97.10 +/- 0.76 |
+| 95% | 97.56 +/- 0.65 | 97.43 +/- 1.02 | 97.29 +/- 0.81 | 97.15 +/- 0.66 | 91.91 +/- 8.58 |
+| 98% | 95.73 +/- 0.90 | 96.29 +/- 1.02 | 96.57 +/- 0.86 | 96.75 +/- 0.72 | 71.24 +/- 12.57 |
+| 99% | 82.31 +/- 10.29 | 84.04 +/- 6.96 | 95.83 +/- 0.72 | 95.45 +/- 0.88 | 41.05 +/- 5.66 |
+
+fisher-magnitude@0.5:test_acc {'n': 8, 'mean_diff': 0.0028, 'sd': 0.0082, 'ci95': 0.0068, 't': 0.9625, 'wins': 5, 'ties': 1, 'losses': 2, 'significant': False}
+fisher-magnitude@0.75:test_acc {'n': 8, 'mean_diff': 0.0026, 'sd': 0.0031, 'ci95': 0.0026, 't': 2.3081, 'wins': 5, 'ties': 2, 'losses': 1, 'significant': False}
+fisher-magnitude@0.9:test_acc {'n': 8, 'mean_diff': 0.0014, 'sd': 0.0058, 'ci95': 0.0049, 't': 0.6732, 'wins': 6, 'ties': 0, 'losses': 2, 'significant': False}
+fisher-magnitude@0.95:test_acc {'n': 8, 'mean_diff': -0.0028, 'sd': 0.004, 'ci95': 0.0033, 't': -1.9843, 'wins': 1, 'ties': 2, 'losses': 5, 'significant': False}
+fisher-magnitude@0.98:test_acc {'n': 8, 'mean_diff': 0.0083, 'sd': 0.0048, 'ci95': 0.004, 't': 4.965, 'wins': 8, 'ties': 0, 'losses': 0, 'significant': True}
+fisher-magnitude@0.99:test_acc {'n': 8, 'mean_diff': 0.1352, 'sd': 0.1003, 'ci95': 0.0839, 't': 3.8134, 'wins': 8, 'ties': 0, 'losses': 0, 'significant': True}

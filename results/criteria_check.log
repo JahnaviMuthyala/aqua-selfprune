@@ -1,0 +1,46 @@
+epochs=3 {
+ "layer0": {
+  "magnitude": 0.2553307813231253,
+  "taylor1": 0.23315958863835454,
+  "fisher": 0.2909124596498386,
+  "neg_g_times_w (signed 1st order)": 0.6217069348277392,
+  "mean_true_dL": 1.2548622908968063e-05
+ },
+ "layer1": {
+  "magnitude": 0.23191791967167869,
+  "taylor1": 0.12361451045804184,
+  "fisher": 0.21760896643586572,
+  "neg_g_times_w (signed 1st order)": 0.5822677690710762,
+  "mean_true_dL": 5.155676741166515e-06
+ },
+ "layer2": {
+  "magnitude": 0.5318248472993892,
+  "taylor1": 0.5568176832707331,
+  "fisher": 0.6120513122052489,
+  "neg_g_times_w (signed 1st order)": 0.3996543026172104,
+  "mean_true_dL": 0.00013472297951462852
+ }
+}
+epochs=40 {
+ "layer0": {
+  "magnitude": 0.5712141888567553,
+  "taylor1": 0.6623233532934131,
+  "fisher": 0.7923897615590462,
+  "neg_g_times_w (signed 1st order)": 0.5391964287857152,
+  "mean_true_dL": 6.166864611837558e-07
+ },
+ "layer1": {
+  "magnitude": 0.4285702902811611,
+  "taylor1": 0.4403943695774783,
+  "fisher": 0.5222125208500834,
+  "neg_g_times_w (signed 1st order)": 0.6624543938175753,
+  "mean_true_dL": 1.469892205820646e-07
+ },
+ "layer2": {
+  "magnitude": 0.7236939027756111,
+  "taylor1": 0.8114118536474145,
+  "fisher": 0.8970838443353774,
+  "neg_g_times_w (signed 1st order)": 0.7644304177216709,
+  "mean_true_dL": 5.618692365610301e-06
+ }
+}
