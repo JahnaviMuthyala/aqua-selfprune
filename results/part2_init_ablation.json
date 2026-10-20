@@ -7,7 +7,7 @@
   ],
   "diverged": false,
   "nan_free": true,
-  "loss_after_epoch1": 1.0665777975835748,
+  "loss_after_epoch1": 1.066577797583575,
   "final_test_acc": 0.9814471243042672
  },
  "xavier": {
@@ -18,18 +18,18 @@
   ],
   "diverged": false,
   "nan_free": true,
-  "loss_after_epoch1": 1.0436234880752202,
+  "loss_after_epoch1": 1.0436234880752209,
   "final_test_acc": 0.9833024118738405
  },
  "normal1": {
   "preact_std_per_layer_at_init": [
-   7.897830660199911,
-   90.6976368913363,
+   7.8978306601999115,
+   90.69763689133632,
    836.8261011682687
   ],
   "diverged": false,
   "nan_free": true,
-  "loss_after_epoch1": 801.395017311123,
+  "loss_after_epoch1": 801.3950173111232,
   "final_test_acc": 0.8534322820037106
  },
  "tiny": {
@@ -40,7 +40,7 @@
   ],
   "diverged": false,
   "nan_free": true,
-  "loss_after_epoch1": 1.956810186512238,
+  "loss_after_epoch1": 1.9568101865122383,
   "final_test_acc": 0.974025974025974
  }
 }
