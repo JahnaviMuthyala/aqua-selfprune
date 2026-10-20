@@ -28,8 +28,8 @@ pip install -r requirements.txt          # or: uv pip install -r requirements.tx
 | gradient-check suite (Part 1) | `pytest tests/test_gradcheck.py` | seconds |
 | masked-weight correctness (Part 1) | `pytest tests/test_masked.py` | seconds |
 | all tests (37) | `pytest` | seconds |
-| Part 2: dense training + learning curve + init study | `python -m train.run_part2` | ~1 min |
-| Part 3: one self-pruning run (90%) | `python -m train.run_part3` | ~10 s |
+| Part 2: dense training + learning curve + init study | `python -m train.run_part2` | ~20 s |
+| Part 3: one self-pruning run (90%) | `python -m train.run_part3` | ~20 s |
 | Part 4: Pareto sweep, baselines, ablations (8 seeds) | `python -m train.run_part4 --seeds 8` | ~25 min |
 | Part 4: re-analyse without retraining | `python -m train.run_part4 --analyze-only` | seconds |
 | Part 4: cost measurement (run on an idle machine) | `python -m train.run_cost` | ~1 min |
