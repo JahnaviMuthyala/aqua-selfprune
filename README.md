@@ -133,14 +133,4 @@ approximately `lr` (within tolerance, accounting for epsilon); and three naive a
 * There is no model export/loading pipeline, inference API, or implemented multi-tenant
   service. The serving discussion in [DESIGN.md](DESIGN.md) is a proposal.
 
-## Submission and technical-defense checklist
 
-* Push source, tests, [design reasoning](DESIGN.md), raw measurements, and plots to the
-  submission GitHub repository; preserve genuine commit history.
-* Verify installation, tests, and representative experiments from a clean clone.
-* For a private repository, grant the specified reviewers access and share its URL.
-* Be ready to derive the masked gradient, explain fresh Adam state and per-entry counters,
-  implement and gradient-check a new operation, and defend the measured cost trade-offs.
-
-The supplied challenge excerpt has incomplete README/test/design sublists. Confirm those
-details against the original specification before treating this checklist as exhaustive.
