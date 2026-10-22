@@ -231,18 +231,4 @@ after warm-up, not an end-to-end request benchmark or a p99 service measurement.
 * Dependencies are not fully version-locked, and clean-clone reproduction remains a
   submission check. No production throughput or tenant-isolation claim has been validated.
 
-## 8. Correctness evidence and live-defense boundaries
 
-The [gradient tests](tests/test_gradcheck.py) exercise supported operations and broadcasting
-against central finite differences. The [mask tests](tests/test_masked.py) distinguish raw
-and effective gradients, check frozen data/state, and exercise Adam revival and intentionally
-naive alternatives. The [pruning tests](tests/test_prune.py) cover budget behavior,
-regrowth, the per-sample Fisher formula, and sparse/dense output equivalence.
-The full suite passed locally (37 tests); this supports the tested cases, not a proof
-for every input, architecture, or floating-point regime.
-
-For a live extension, add the operation and backward rule in the engine and test
-broadcasting and finite differences, or add a score to the existing criterion registry
-and test its ranking and budget interaction. No such extra operation or criterion
-is claimed to have been implemented live. The candidate must explain and extend
-the code independently; passing tests and written explanations do not replace that defense.
